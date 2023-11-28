@@ -1,0 +1,424 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.8": {
+      "Tekla.Structures/2021.0.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Runtime.Remoting"
+        ],
+        "compile": {
+          "lib/net40/Tekla.Structures.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/Tekla.Structures.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Tekla.Structures.Catalogs/2021.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Tekla.Structures": "2021.0.0",
+          "Tekla.Structures.Datatype": "2021.0.0",
+          "Tekla.Structures.Model": "2021.0.0"
+        },
+        "frameworkAssemblies": [
+          "System.Runtime.Remoting"
+        ],
+        "compile": {
+          "lib/net40/Tekla.Structures.Catalogs.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/Tekla.Structures.Catalogs.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Tekla.Structures.Datatype/2021.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Tekla.Structures.Datatype.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/Tekla.Structures.Datatype.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Tekla.Structures.Dialog/2021.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Tekla.Structures": "2021.0.0",
+          "Tekla.Structures.Catalogs": "2021.0.0",
+          "Tekla.Structures.Datatype": "2021.0.0",
+          "Tekla.Structures.Model": "2021.0.0",
+          "Tekla.Structures.Plugins": "2021.0.0",
+          "Tekla.Technology.MsgLib": "2.1.18312"
+        },
+        "compile": {
+          "lib/net40/Tekla.Structures.Dialog.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/Tekla.Structures.Dialog.dll": {
+            "related": ".xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
+      "Tekla.Structures.Drawing/2021.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Tekla.Structures": "2021.0.0",
+          "Tekla.Structures.Datatype": "2021.0.0",
+          "Tekla.Structures.Dialog": "2021.0.0",
+          "Tekla.Structures.Model": "2021.0.0",
+          "Tekla.Structures.Plugins": "2021.0.0"
+        },
+        "compile": {
+          "lib/net40/Tekla.Structures.Drawing.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/Tekla.Structures.Drawing.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Tekla.Structures.Model/2021.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Tekla.Structures": "2021.0.0",
+          "Tekla.Structures.Datatype": "2021.0.0"
+        },
+        "frameworkAssemblies": [
+          "System.Runtime.Remoting"
+        ],
+        "compile": {
+          "lib/net40/Tekla.Structures.Model.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/Tekla.Structures.Model.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Tekla.Structures.Plugins/2021.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Tekla.Structures": "2021.0.0"
+        },
+        "frameworkAssemblies": [
+          "System.Runtime.Remoting"
+        ],
+        "compile": {
+          "lib/net40/Tekla.Structures.Plugins.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/Tekla.Structures.Plugins.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Tekla.Technology.Msglib/2.1.18312": {
+        "type": "package",
+        "dependencies": {
+          "Tekla.Technology.Rkit": "2.1.4.17310"
+        },
+        "compile": {
+          "lib/net40/Tekla.Technology.MsgLib.dll": {}
+        },
+        "runtime": {
+          "lib/net40/_._": {}
+        }
+      },
+      "Tekla.Technology.Rkit/2.1.4.17310": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Tekla.Technology.Rkit.dll": {}
+        },
+        "runtime": {
+          "lib/net40/_._": {}
+        }
+      },
+      "TeklaFusion/3.5.250": {
+        "type": "package",
+        "compile": {
+          "lib/net451/Fusion.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net451/Fusion.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Tekla.Structures/2021.0.0": {
+      "sha512": "8BX+Sr9J8vw+QrnGCLHx0dumE/R/hXGAfGBzldGaMSIAL0n4db2hXRigsU88CT1JKxBAM6RTwLjwWL0kMUZdBA==",
+      "type": "package",
+      "path": "tekla.structures/2021.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "eula.txt",
+        "lib/net40/Tekla.Structures.dll",
+        "lib/net40/Tekla.Structures.xml",
+        "logo.png",
+        "tekla.structures.2021.0.0.nupkg.sha512",
+        "tekla.structures.nuspec"
+      ]
+    },
+    "Tekla.Structures.Catalogs/2021.0.0": {
+      "sha512": "2HuvMjbCRBfcKZFK65/h6bxiISeh3y2hZ+tIEZEuj1DdFS4yBr+gVJ3ltVa8nwtOMHhoJiP8GpWWb4pRc3Ic8g==",
+      "type": "package",
+      "path": "tekla.structures.catalogs/2021.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "eula.txt",
+        "lib/net40/Tekla.Structures.Catalogs.dll",
+        "lib/net40/Tekla.Structures.Catalogs.xml",
+        "logo.png",
+        "tekla.structures.catalogs.2021.0.0.nupkg.sha512",
+        "tekla.structures.catalogs.nuspec"
+      ]
+    },
+    "Tekla.Structures.Datatype/2021.0.0": {
+      "sha512": "KwShfV86Kzs0kRQLT6PwtY3CkChXj/zAWXZ5XG4AvoiO3ufaY+O78Jr4yla0Fd5wGvelxCOXhii5K8fCTvRMlw==",
+      "type": "package",
+      "path": "tekla.structures.datatype/2021.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "eula.txt",
+        "lib/net40/Tekla.Structures.Datatype.dll",
+        "lib/net40/Tekla.Structures.Datatype.xml",
+        "logo.png",
+        "tekla.structures.datatype.2021.0.0.nupkg.sha512",
+        "tekla.structures.datatype.nuspec"
+      ]
+    },
+    "Tekla.Structures.Dialog/2021.0.0": {
+      "sha512": "53dsxEaxU42RuI5V2/gIlSyEtzmsvSu85tu6kQDDDMwrkqNXm2UH8j9c6ebZ8vbhlmxVtbZluRqTkWeSPw3THg==",
+      "type": "package",
+      "path": "tekla.structures.dialog/2021.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/Resources/element_catalog_cross_section.bmp",
+        "content/Resources/element_catalog_cross_section_sketch.bmp",
+        "content/Resources/element_catalog_cross_section_user.bmp",
+        "content/Resources/prtyp_tree_1.bmp",
+        "content/Resources/prtyp_tree_10.bmp",
+        "content/Resources/prtyp_tree_11.bmp",
+        "content/Resources/prtyp_tree_13.bmp",
+        "content/Resources/prtyp_tree_15.bmp",
+        "content/Resources/prtyp_tree_2.bmp",
+        "content/Resources/prtyp_tree_3.bmp",
+        "content/Resources/prtyp_tree_4.bmp",
+        "content/Resources/prtyp_tree_5.bmp",
+        "content/Resources/prtyp_tree_6.bmp",
+        "content/Resources/prtyp_tree_7.bmp",
+        "content/Resources/prtyp_tree_8.bmp",
+        "content/Resources/prtyp_tree_9.bmp",
+        "contentFiles/any/net40/Resources/element_catalog_cross_section.bmp",
+        "contentFiles/any/net40/Resources/element_catalog_cross_section_sketch.bmp",
+        "contentFiles/any/net40/Resources/element_catalog_cross_section_user.bmp",
+        "contentFiles/any/net40/Resources/prtyp_tree_1.bmp",
+        "contentFiles/any/net40/Resources/prtyp_tree_10.bmp",
+        "contentFiles/any/net40/Resources/prtyp_tree_11.bmp",
+        "contentFiles/any/net40/Resources/prtyp_tree_13.bmp",
+        "contentFiles/any/net40/Resources/prtyp_tree_15.bmp",
+        "contentFiles/any/net40/Resources/prtyp_tree_2.bmp",
+        "contentFiles/any/net40/Resources/prtyp_tree_3.bmp",
+        "contentFiles/any/net40/Resources/prtyp_tree_4.bmp",
+        "contentFiles/any/net40/Resources/prtyp_tree_5.bmp",
+        "contentFiles/any/net40/Resources/prtyp_tree_6.bmp",
+        "contentFiles/any/net40/Resources/prtyp_tree_7.bmp",
+        "contentFiles/any/net40/Resources/prtyp_tree_8.bmp",
+        "contentFiles/any/net40/Resources/prtyp_tree_9.bmp",
+        "eula.txt",
+        "lib/net40/Tekla.Structures.Dialog.dll",
+        "lib/net40/Tekla.Structures.Dialog.xml",
+        "logo.png",
+        "tekla.structures.dialog.2021.0.0.nupkg.sha512",
+        "tekla.structures.dialog.nuspec"
+      ]
+    },
+    "Tekla.Structures.Drawing/2021.0.0": {
+      "sha512": "iQ06COd4pWEu5l+FLxt9aFPHWBQIaKNZ3ot5IWTMdj7qQHv/ehMFRo21o6xFYRXBDqE8XT7tLwRRT6x170YxhQ==",
+      "type": "package",
+      "path": "tekla.structures.drawing/2021.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "eula.txt",
+        "lib/net40/Tekla.Structures.Drawing.dll",
+        "lib/net40/Tekla.Structures.Drawing.xml",
+        "logo.png",
+        "tekla.structures.drawing.2021.0.0.nupkg.sha512",
+        "tekla.structures.drawing.nuspec"
+      ]
+    },
+    "Tekla.Structures.Model/2021.0.0": {
+      "sha512": "r4g3nLEEKMQpvE0tFk+McTPH9KwU8Q+vnThUQ/4LWRfUmvj7qblm8kYRChYr49TS5AASxTu/34aXfNsVcIJEzw==",
+      "type": "package",
+      "path": "tekla.structures.model/2021.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "eula.txt",
+        "lib/net40/Tekla.Structures.Model.dll",
+        "lib/net40/Tekla.Structures.Model.xml",
+        "logo.png",
+        "tekla.structures.model.2021.0.0.nupkg.sha512",
+        "tekla.structures.model.nuspec"
+      ]
+    },
+    "Tekla.Structures.Plugins/2021.0.0": {
+      "sha512": "ZubbctVfo+FROJQ+YynCh/RMONFFhpKZvQeOtFPOWeqho6GCzzBD5ia3v8nZLlEU02t8dF+R7hIS/lCi2bCVqg==",
+      "type": "package",
+      "path": "tekla.structures.plugins/2021.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "eula.txt",
+        "lib/net40/Tekla.Structures.Plugins.dll",
+        "lib/net40/Tekla.Structures.Plugins.xml",
+        "logo.png",
+        "tekla.structures.plugins.2021.0.0.nupkg.sha512",
+        "tekla.structures.plugins.nuspec"
+      ]
+    },
+    "Tekla.Technology.Msglib/2.1.18312": {
+      "sha512": "YKg2zw7xdjPgk54cHFjlHtHhFz+HvtEougj3i2CBm0QNRmRMEOD8t+GadzxUFEWOZ9kMWSdRB+pm4UIom3Qsww==",
+      "type": "package",
+      "path": "tekla.technology.msglib/2.1.18312",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Readme.txt",
+        "lib/net40/Tekla.Technology.MsgLib.dll",
+        "tekla.technology.msglib.2.1.18312.nupkg.sha512",
+        "tekla.technology.msglib.nuspec"
+      ]
+    },
+    "Tekla.Technology.Rkit/2.1.4.17310": {
+      "sha512": "h92jqyZYrN0tteiYzs9YyiXuM96yF5noHqdGGc+djJ7t2QgYSC4xWKTHNbomr4kPfBCmk6WNTFmiNs3V5+kyfg==",
+      "type": "package",
+      "path": "tekla.technology.rkit/2.1.4.17310",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Tekla.Technology.Rkit.dll",
+        "tekla.technology.rkit.2.1.4.17310.nupkg.sha512",
+        "tekla.technology.rkit.nuspec"
+      ]
+    },
+    "TeklaFusion/3.5.250": {
+      "sha512": "MNToXgha3esTQAQYasVLph1xcxi6ZCPDbEky8WFvoeDh0ADnTJL2J7LUPRgFCiKteQcWd0qGPb8mJQqdl8mstg==",
+      "type": "package",
+      "path": "teklafusion/3.5.250",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net451/Fusion.dll",
+        "lib/net451/Fusion.xml",
+        "teklafusion.3.5.250.nupkg.sha512",
+        "teklafusion.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.8": [
+      "Tekla.Structures.Drawing >= 2021.0.0",
+      "Tekla.Structures.Model >= 2021.0.0",
+      "TeklaFusion >= 3.5.250"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Rshaikh\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Rshaikh\\source\\repos\\TeklaWPFPluginEnumFinal\\TeklaWPFPluginEnumFinal\\TeklaWPFPluginEnumFinal.csproj",
+      "projectName": "TeklaWPFPluginEnumFinal",
+      "projectPath": "C:\\Users\\Rshaikh\\source\\repos\\TeklaWPFPluginEnumFinal\\TeklaWPFPluginEnumFinal\\TeklaWPFPluginEnumFinal.csproj",
+      "packagesPath": "C:\\Users\\Rshaikh\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Rshaikh\\source\\repos\\TeklaWPFPluginEnumFinal\\TeklaWPFPluginEnumFinal\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Rshaikh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net48"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net48": {
+        "targetAlias": "net48",
+        "dependencies": {
+          "Tekla.Structures.Drawing": {
+            "target": "Package",
+            "version": "[2021.0.0, )"
+          },
+          "Tekla.Structures.Model": {
+            "target": "Package",
+            "version": "[2021.0.0, )"
+          },
+          "TeklaFusion": {
+            "target": "Package",
+            "version": "[3.5.250, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
